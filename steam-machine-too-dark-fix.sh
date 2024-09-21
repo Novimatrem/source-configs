@@ -7,7 +7,7 @@ pkill redshift
 pkill redshift-gtk
 clear
 
-while true; do sleep 0.01s && xgamma -gamma 1.45 && echo "" && echo "" && echo "" && echo "" && echo "" && echo "xgamma -gamma 1.45" && echo ""; done
+while true; do sleep 1s && xgamma -gamma 1.45 && echo "" && echo "" && echo "" && echo "" && echo "" && echo "xgamma -gamma 1.45" && echo ""; done
 
 xgamma -gamma 1.45
 
